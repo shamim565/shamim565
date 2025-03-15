@@ -38,7 +38,7 @@
 
 ### 📫 Let’s Connect  
 - **Email**: [shamimazad565@gmail.com](mailto:shamimazad565@gmail.com)  
-- **LinkedIn**: [linkedin.com/in/your-profile](https://linkedin.com/in/shamim565)  
+- **LinkedIn**: [linkedin.com/in/shamim565](https://linkedin.com/in/shamim565)  
 - **GitHub**: You're already here! 😄  
 
 ---
