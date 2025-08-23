@@ -20,7 +20,7 @@
 
 ### 💼 Work Experience
 
-#### 🏢 **Backend Developer (Contract) - Interactive Cares** *(Sep 2024 - Present)*  
+#### 🏢 **Senior Backend Developer - Interactive Cares** *(Sep 2024 - Present)*  
 - Optimized LMS performance by **30%**, reducing query times for **100,000+ users**.
 - Developed a new **LMS platform** using **Django, DRF, PostgreSQL** for **scalability & efficiency**.
 - Migrated **MySQL → PostgreSQL**, boosting query performance by **40%**.
