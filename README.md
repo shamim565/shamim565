@@ -27,7 +27,7 @@
 - Implemented **Celery & Redis-based** task queues, processing **15K+ daily tasks**.
 - Built **REST APIs handling 300K+ requests/day** with a **99% success rate**.
 
-#### 🏢 **Junior Software Engineer - Khan Soft Limited** *(Sep 2022 - Aug 2024)*  
+#### 🏢 **Software Engineer - Khan Soft Limited** *(Sep 2022 - Aug 2024)*  
 - Developed **RESTful APIs** for **1M+ users** across mobile & web platforms.
 - Integrated a **blockchain-based financial system**, improving transaction efficiency by **30%**.
 - Reduced infrastructure costs from **$600 → $50/month** by optimizing blockchain data retrieval.
