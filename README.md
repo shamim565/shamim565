@@ -1,6 +1,6 @@
 ### Hi there, I'm Shamim Azad! 👋
 
-🚀 **Backend Developer | Django, DRF & Web3 Enthusiast**  
+🚀 **Backend Developer | Django, DRF & Web3**  
 🎯 Passionate about building scalable and high-performance applications.  
 📌 Specializing in **Python, Django, DRF, Web3, and Blockchain Development**.  
 💡 Always learning new technologies to optimize and enhance software solutions.  
