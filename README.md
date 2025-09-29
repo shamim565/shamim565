@@ -1,47 +1,46 @@
-### Hi there, I'm Shamim Azad! 👋
+# Hi there, I'm Shamim Azad! 👋
 
-🚀 **Backend Developer | Django, DRF & Web3**  
-🎯 Passionate about building scalable and high-performance applications.  
-📌 Specializing in **Python, Django, DRF, Web3, and Blockchain Development**.  
-💡 Always learning new technologies to optimize and enhance software solutions.  
+### 🚀 Backend Developer | Python, Django, DRF & Web3 Specialist
 
----
-
-### 🛠 Tech Stack
-
-- **Languages:** Python, JavaScript, Solidity, C, C++, Java
-- **Backend Frameworks:** Django, Django REST Framework (DRF), Celery, Truffle
-- **Databases:** PostgreSQL, MySQL, MongoDB
-- **Tools & DevOps:** Docker, Git, GitHub, Redis, RabbitMQ, Asana, Ganache
-- **Blockchain & Web3:** Web3.js, Web3.py, Smart Contracts, WalletConnect
-- **API Development:** REST, GraphQL
+I’m a highly analytical Backend Developer with **3+ years of experience** specializing in building and scaling robust, high-performance web applications. I focus on creating clean, maintainable code and leveraging cutting-edge **Blockchain** solutions to solve complex problems and drive cost efficiency.
 
 ---
 
-### 💼 Work Experience
+## 💡 Core Expertise
 
-#### 🏢 **Senior Backend Developer - Interactive Cares** *(Sep 2024 - Present)*  
-- Optimized LMS performance by **30%**, reducing query times for **100,000+ users**.
-- Developed a new **LMS platform** using **Django, DRF, PostgreSQL** for **scalability & efficiency**.
-- Migrated **MySQL → PostgreSQL**, boosting query performance by **40%**.
-- Implemented **Celery & Redis-based** task queues, processing **15K+ daily tasks**.
-- Built **REST APIs handling 300K+ requests/day** with a **99% success rate**.
-
-#### 🏢 **Software Engineer - Khan Soft Limited** *(Sep 2022 - Aug 2024)*  
-- Developed **RESTful APIs** for **1M+ users** across mobile & web platforms.
-- Integrated a **blockchain-based financial system**, improving transaction efficiency by **30%**.
-- Reduced infrastructure costs from **$600 → $50/month** by optimizing blockchain data retrieval.
-- Implemented **asynchronous processing (Celery, Redis)** and **caching (Redis, Memcached)**.
-- Conducted code reviews and testing, improving code quality & reducing bugs.
+| Category | Key Skills |
+| :--- | :--- |
+| **Backend & Core** | **Python**, **Django**, **Django REST Framework (DRF)**, FastAPI, Celery, Pytest |
+| **Web3 & Blockchain** | **Solidity**, **Web3.py**, Smart Contracts, Truffle, WalletConnect |
+| **Cloud & DevOps** | AWS (EC2, ECS, S3, RDS), **Docker**, Nginx, CI/CD (GitHub Actions) |
+| **Data & Caching** | PostgreSQL, MySQL, MongoDB, **Redis**, Memcached |
 
 ---
 
-### 📫 Let’s Connect  
-- **Email**: [shamimazad565@gmail.com](mailto:shamimazad565@gmail.com)  
-- **LinkedIn**: [linkedin.com/in/shamim565](https://linkedin.com/in/shamim565)  
-- **GitHub**: You're already here! 😄  
+## 💼 Professional Experience & Impact
+
+### 🏢 Senior Backend Developer - Interactive Cares (Sep 2024 - Present)
+
+* **Performance Engineering:** Engineered comprehensive optimizations across the LMS platform, achieving **30% faster application response times** and ensuring seamless experience for **1,000,000+ users**.
+* **Scalable Architecture:** Architected and developed a new LMS from the ground up using **Django, DRF, and PostgreSQL**.
+* **High Throughput:** Implemented a **Celery/Redis** task queue, successfully processing over **15,000+ background jobs daily** and improving throughput by **40%**.
+* **API Reliability:** Developed and maintained RESTful APIs handling **300,000+ daily requests** with a **99% success rate**.
+
+### 🏢 Software Engineer - Khan Soft Limited (Sep 2022 - Aug 2024)
+
+* **Financial Web3 Integration:** Spearheaded the integration of a **blockchain-based financial system** using Web3.py, boosting transaction efficiency by **30%** and reducing failures by **15%**.
+* **Cost Optimization:** Optimized on-chain data querying, successfully slashing **monthly cloud infrastructure costs from $600 to $50**.
+* **Large-Scale APIs:** Developed scalable RESTful APIs serving a combined user base of **over 1 million** across web and mobile platforms.
+* **Caching & Speed:** Implemented **Redis/Memcached caching**, reducing database load by **40%** and improving critical API response times.
 
 ---
 
+## 📫 Let's Connect
 
-*“Code is like poetry – it should be elegant, efficient, and impactful.”*
+| Platform | Link |
+| :--- | :--- |
+| **Email** | [shamimazad565@gmail.com](mailto:shamimazad565@gmail.com) |
+| **LinkedIn** | [linkedin.com/in/shamim565](https://linkedin.com/in/shamim565) |
+
+---
+*“Code is like poetry—it should be elegant, efficient, and impactful.”* 💡
