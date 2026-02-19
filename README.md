@@ -2,7 +2,7 @@
 
 ### 🚀 Sr. Backend Developer | Python, Django, DRF & Web3 Specialist
 
-I am a Software Developer with over 3.5 years of experience in building and scaling high-performance web applications. My expertise lies in Python, Django, and Web3, with a strong focus on backend architecture, API design, and performance optimization. I have a track record of delivering systems that handle millions of requests and integrating cutting-edge blockchain solutions to enhance efficiency and reduce costs. I am passionate about writing clean, maintainable code and solving complex problems.
+I am a Backend Developer with over 3.5 years of experience in building and scaling high-performance web applications. My expertise lies in Python, Django, and Web3, with a strong focus on backend architecture, API design, and performance optimization. I have a track record of delivering systems that handle millions of requests and integrating cutting-edge blockchain solutions to enhance efficiency and reduce costs. I am passionate about writing clean, maintainable code and solving complex problems.
 
 ---
 
