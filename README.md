@@ -1,8 +1,8 @@
 # Hi there, I'm Shamim Azad! 👋
 
-### 🚀 Backend Developer | Python, Django, DRF & Web3 Specialist
+### 🚀 Sr. Software Developer | Python, Django, DRF & Web3 Specialist
 
-I am a Backend Developer with over 3 years of experience in building and scaling high-performance web applications. My expertise lies in Python, Django, and Web3, with a strong focus on backend architecture, API design, and performance optimization. I have a track record of delivering systems that handle millions of requests and integrating cutting-edge blockchain solutions to enhance efficiency and reduce costs. I am passionate about writing clean, maintainable code and solving complex problems.
+I am a Software Developer with over 3.5 years of experience in building and scaling high-performance web applications. My expertise lies in Python, Django, and Web3, with a strong focus on backend architecture, API design, and performance optimization. I have a track record of delivering systems that handle millions of requests and integrating cutting-edge blockchain solutions to enhance efficiency and reduce costs. I am passionate about writing clean, maintainable code and solving complex problems.
 
 ---
 
@@ -22,7 +22,7 @@ I am a Backend Developer with over 3 years of experience in building and scaling
 
 ## 💼 Professional Experience
 
-### 🏢 Senior Backend Developer - Interactive Cares (Sep 2024 - Present)
+### 🏢 Senior Software Developer - Interactive Cares (Sep 2024 - Present)
 
 - Architected and developed a new LMS platform from the ground up using **Django, DRF, and PostgreSQL**, ensuring scalability for over **1,000,000 users**.
 - Engineered comprehensive performance optimizations, including database schema redesign and Redis caching, achieving **30% faster application response times**.
