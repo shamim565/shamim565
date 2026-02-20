@@ -10,15 +10,16 @@ Backend developer with 3+ years of experience building and optimizing high-perfo
 
 | Category | Key Skills |
 | :--- | :--- |
-| **Languages** | Python, JavaScript |
-| **Frameworks** | Django, Django REST Framework (DRF), FastAPI |
-| **Databases** | PostgreSQL, MySQL, MongoDB |
-| **Cloud & DevOps** | AWS (EC2, ECS, S3, RDS, Amplify), Docker, Nginx, CI/CD Pipelines |
+| **Languages** | Python, JavaScript, TypeScript, Java, Solidity |
+| **Frameworks** | Django, Django REST Framework (DRF), FastAPI, React |
+| **Databases** | PostgreSQL, MySQL, MongoDB, SQLite, SQL Server |
+| **Cloud & DevOps** | AWS (EC2, ECS, S3, RDS, SES, Lightsail, Amplify), Docker, Nginx, CI/CD Pipelines |
 | **Caching & CDN** | Redis, BunnyCDN, Cloudflare |
 | **Payment & Messaging APIs** | Stripe, Paypal, SSLCommerz, Twilio, BulkSMSBD |
-| **Testing & Documentation** | Pytest, Swagger/OpenAPI |
-| **Frontend (Basic)** | React, Tailwind CSS, HTML, CSS |
-| **Tools** | Git, GitHub, Figma, Asana |
+| **Push Notifications** | Firebase Cloud Messaging (FCM) |
+| **Testing & Documentation** | Pytest, Swagger/OpenAPI (drf-spectacular) |
+| **Frontend** | React, Tailwind CSS, Shadcn |
+| **Tools** | Git, GitHub, Figma, Asana, SelectPdf |
 
 ---
 
@@ -27,14 +28,42 @@ Backend developer with 3+ years of experience building and optimizing high-perfo
 ### 🏢 Senior Backend Developer - Interactive Cares (Sep 2024 - Present)
 📍 Adabor, Dhaka, Bangladesh
 
-- Architected and developed a scalable **LMS platform** from scratch using **Django, DRF, and PostgreSQL**, implementing a modular design to support future user growth and feature expansion.
+#### 📚 LMS Platform (ic-backend-v2)
+- Architected and developed a scalable **LMS platform** from scratch using **Django, DRF, and PostgreSQL**, implementing a modular design with apps for `courses`, `classrooms`, `affiliates`, `payments`, `investment`, `notifier`, `offline`, and `users` to support future growth and feature expansion.
 - Designed a custom **RBAC system** with a 4-tier permission hierarchy and action-based authorization, enabling fine-grained access control across all API endpoints.
 - Developed a **dynamic pricing engine** with stackable discounts (affiliate, coupon, early bird, B2B, mobile app) and real-time commission tracking for the affiliate program.
-- Built a **multi-tenant notification system** supporting email and SMS with event-driven triggers.
-- Implemented asynchronous task processing using **Celery and Redis** for background jobs including notifications, reports, and scheduled operations.
+- Built a **multi-tenant notification system** supporting email (**AWS SES** via django-anymail), SMS (**Twilio, BulkSMSBD**), and **Firebase Cloud Messaging** push notifications with event-driven triggers.
+- Integrated **Stripe and SSLCommerz** payment gateways with webhook handling for secure online payments, subscription management, and automated receipt generation.
+- Implemented asynchronous task processing using **Celery and Redis** (with celery-singleton and django-celery-results) for background jobs including notifications, reports, and scheduled operations.
+- Built an **investment module** to manage and track financial investments within the platform.
+- Generated dynamic **QR codes** for course enrollments and event check-ins using the `qrcode` library.
 - Migrated the production database from **MySQL to PostgreSQL** with zero downtime and complete data consistency.
 - Enhanced API performance through **query optimization, Redis caching, and CDN integration** (BunnyCDN / Cloudflare), reducing average response time by **30%**.
 - Implemented a **CI/CD pipeline** for backend services by containerizing with **Docker** and leveraging **AWS ECS** (Fargate / EC2) for scalable deployments, ensuring environment consistency.
+
+#### 📊 CRM Platform
+- Architected and developed a full-featured **CRM backend** from scratch using **Django, DRF, and PostgreSQL**, with a clean service-repository architecture across modular apps.
+- Built a comprehensive **lead management system** with full CRUD, CSV bulk upload, follow-up scheduling, call logging, notes, and complete lead history tracking.
+- Designed and implemented a **hierarchical RBAC system** with role-based permissions, field-level access control, permission inheritance, and custom decorators/mixins for fine-grained API authorization.
+- Developed a **purchase and commission module** with agent commission tracking, configurable commission slabs, and purchase history management.
+- Built **KPI and finance dashboards** with APIs for conversion analytics, agent performance, source performance, revenue summaries, due aging reports, collection forecasts, and discount usage tracking.
+- Implemented a **unified reporting system** with daily activity, team performance, attendance summary, source revenue, and cross-department reports, all with **CSV/Excel export** capabilities.
+- Developed a **campaign management module** for marketing campaigns and a **notification system** for in-app alerts with real-time updates.
+- Containerized the entire stack with **Docker** using a **blue-green deployment** strategy via **Nginx** load balancer on **AWS EC2** for zero-downtime production releases.
+- Configured **Celery workers and Celery Beat** with Redis as the message broker for background task processing and periodic scheduled jobs.
+- Integrated **AWS S3** for media storage, **AWS SES** for transactional emails, **BulkSMSBD** for SMS notifications, and **Cloudflare Turnstile** for bot protection.
+
+#### 🧒 Kidz Venture Platform
+- Developed a **children's educational platform backend** using **Django, DRF, and PostgreSQL**, with modular apps for `courses`, `users`, `notifier`, and shared `generics`/`utils`.
+- Integrated **Stripe and SSLCommerz** payment gateways for course purchases and subscription billing with webhook-based payment verification.
+- Built a **notification service** supporting email (**AWS SES**), SMS (**Twilio, BulkSMSBD**), and **Firebase push notifications** for parent/student engagement.
+- Implemented **Celery with Redis** for async task processing including enrollment confirmations, scheduled reminders, and report generation.
+- Containerized with **Docker** and deployed on **AWS** with CI/CD pipelines via **GitHub Actions** for automated staging and production deployments.
+
+#### 🤖 AI Chatbot for Interactive Cares
+- Built an **AI-powered chatbot** using **Django and the OpenAI API** with **Server-Sent Events (SSE)** for real-time token-by-token streaming responses.
+- Designed a **data scraping and storage system** for Interactive Cares content (courses, workshops, locations, FAQs, success stories) using a flexible `InteractiveCaresData` model with JSON metadata support.
+- Implemented **context-aware AI responses** by dynamically fetching and injecting scraped platform data (online/offline courses, pricing, workshop details) into OpenAI prompts for accurate, data-driven conversations.
 
 ### 🏢 Software Engineer - Khan Soft Limited (Sep 2022 - Aug 2024)
 📍 West Dhanmondi, Dhaka, Bangladesh
