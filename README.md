@@ -2,7 +2,7 @@
 
 ### 🚀 Sr. Backend Developer | Python, Django, DRF Specialist
 
-Backend developer with 3+ years of experience building and optimizing high-performance web applications with Python, Django, and Django REST Framework. Proven expertise in designing scalable APIs, enhancing database performance, and deploying on cloud platforms like AWS. Proficient in leveraging task queues, caching, and containerized deployments to improve system speed and reliability. Committed to writing clean, maintainable code and engineering robust systems for high-traffic production environments.
+Backend developer with 3.5+ years of experience building and optimizing high-performance web applications with Python, Django, and Django REST Framework. Proven expertise in designing scalable APIs, enhancing database performance, and deploying on cloud platforms like AWS. Proficient in leveraging task queues, caching, and containerized deployments to improve system speed and reliability. Committed to writing clean, maintainable code and engineering robust systems for high-traffic production environments.
 
 ---
 
@@ -28,7 +28,7 @@ Backend developer with 3+ years of experience building and optimizing high-perfo
 ### 🏢 Senior Backend Developer - Interactive Cares (Sep 2024 - Present)
 📍 Adabor, Dhaka, Bangladesh
 
-#### 📚 LMS Platform (ic-backend-v2)
+#### 📚 LMS Platform
 - Architected and developed a scalable **LMS platform** from scratch using **Django, DRF, and PostgreSQL**, implementing a modular design with apps for `courses`, `classrooms`, `affiliates`, `payments`, `investment`, `notifier`, `offline`, and `users` to support future growth and feature expansion.
 - Designed a custom **RBAC system** with a 4-tier permission hierarchy and action-based authorization, enabling fine-grained access control across all API endpoints.
 - Developed a **dynamic pricing engine** with stackable discounts (affiliate, coupon, early bird, B2B, mobile app) and real-time commission tracking for the affiliate program.
@@ -60,9 +60,9 @@ Backend developer with 3+ years of experience building and optimizing high-perfo
 - Implemented **Celery with Redis** for async task processing including enrollment confirmations, scheduled reminders, and report generation.
 - Containerized with **Docker** and deployed on **AWS** with CI/CD pipelines via **GitHub Actions** for automated staging and production deployments.
 
-#### 🤖 AI Chatbot for Interactive Cares
+#### 🤖 AI Chatbot for LMS Platform
 - Built an **AI-powered chatbot** using **Django and the OpenAI API** with **Server-Sent Events (SSE)** for real-time token-by-token streaming responses.
-- Designed a **data scraping and storage system** for Interactive Cares content (courses, workshops, locations, FAQs, success stories) using a flexible `InteractiveCaresData` model with JSON metadata support.
+- Designed a **data scraping and storage system** for LMS content (courses, workshops, locations, FAQs, success stories) using a flexible model with JSON metadata support.
 - Implemented **context-aware AI responses** by dynamically fetching and injecting scraped platform data (online/offline courses, pricing, workshop details) into OpenAI prompts for accurate, data-driven conversations.
 
 ### 🏢 Software Engineer - Khan Soft Limited (Sep 2022 - Aug 2024)
