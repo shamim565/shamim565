@@ -82,7 +82,7 @@ Published in 3rd International Conference on Sustainable Technologies for Indust
 - Co-authored a peer-reviewed paper on a blockchain-based framework to combat counterfeit medicines in the pharmaceutical supply chain.
 - Designed an immutable ledger system to enhance transparency and traceability from manufacturing to end-user, demonstrating a viable solution for securing drug authenticity.
 
-[📎 View Paper](https://ieeexplore.ieee.org/document/9732598)
+[📎 View Paper](https://ieeexplore.ieee.org/document/9732594)
 
 ---
 
