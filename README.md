@@ -1,8 +1,8 @@
 # Hi there, I'm Shamim Azad! 👋
 
-### 🚀 Sr. Backend Developer | Python, Django, DRF Specialist
+### 🚀 Backend Engineer | Java, Spring Boot, Distributed Systems
 
-Backend developer with 3.5+ years of experience building and optimizing high-performance web applications with Python, Django, and Django REST Framework. Proven expertise in designing scalable APIs, enhancing database performance, and deploying on cloud platforms like AWS. Proficient in leveraging task queues, caching, and containerized deployments to improve system speed and reliability. Committed to writing clean, maintainable code and engineering robust systems for high-traffic production environments.
+Backend Engineer with 5+ years of experience designing and operating high-scale, reliable backend systems using Java, Spring Boot, and distributed architectures. Strong focus on high availability, performance optimization, and system reliability through SRE practices. Experienced in building large-scale APIs, microservices, and event-driven systems using Apache Kafka, with hands-on experience in monitoring, incident response, and production system stability. Python/Django used for supporting services and blockchain integration.
 
 ---
 
@@ -10,71 +10,59 @@ Backend developer with 3.5+ years of experience building and optimizing high-per
 
 | Category | Key Skills |
 | :--- | :--- |
-| **Languages** | Python, JavaScript, TypeScript, Java, Solidity |
-| **Frameworks** | Django, Django REST Framework (DRF), FastAPI, React |
-| **Databases** | PostgreSQL, MySQL, MongoDB, SQLite, SQL Server |
-| **Cloud & DevOps** | AWS (EC2, ECS, S3, RDS, SES, Lightsail, Amplify), Docker, Nginx, CI/CD Pipelines |
-| **Caching & CDN** | Redis, BunnyCDN, Cloudflare |
-| **Payment & Messaging APIs** | Stripe, Paypal, SSLCommerz, Twilio, BulkSMSBD |
-| **Push Notifications** | Firebase Cloud Messaging (FCM) |
-| **Testing & Documentation** | Pytest, Swagger/OpenAPI (drf-spectacular) |
-| **Frontend** | React, Tailwind CSS, Shadcn |
-| **Tools** | Git, GitHub, Figma, Asana, SelectPdf |
+| **Languages** | Java, Python, JavaScript |
+| **Backend** | Spring Boot, Spring Cloud, Spring Security, Spring Data JPA, Hibernate |
+| **Architecture** | Microservices, Event-Driven Systems, Distributed Systems |
+| **Databases** | PostgreSQL, Redis, MySQL, MongoDB |
+| **Messaging & Streaming** | Apache Kafka, Redis Pub/Sub |
+| **Monitoring & Observability** | Prometheus, Grafana, ELK Stack |
+| **DevOps & Cloud** | Docker, AWS (EC2, ECS, S3, RDS, ELB), Nginx, CI/CD (GitHub Actions, Jenkins) |
+| **Testing & Tools** | JUnit, Mockito, Pytest, Swagger/OpenAPI, Postman, Maven, Git, JIRA |
 
 ---
 
 ## 💼 Professional Experience
 
-### 🏢 Senior Backend Developer - Interactive Cares (Sep 2024 - Present)
-📍 Adabor, Dhaka, Bangladesh
+### 🏢 Backend Engineer - Interactive Ventures Limited (Interactive Cares) (Sep 2024 - Present)
+📍 Dhaka, Bangladesh
+> EdTech platform serving 500K+ users and 20K+ daily active users
 
-#### 📚 LMS Platform
-- Architected and developed a scalable **LMS platform** from scratch using **Django, DRF, and PostgreSQL**, implementing a modular design with apps for `courses`, `classrooms`, `affiliates`, `payments`, `investment`, `notifier`, `offline`, and `users` to support future growth and feature expansion.
-- Designed a custom **RBAC system** with a 4-tier permission hierarchy and action-based authorization, enabling fine-grained access control across all API endpoints.
-- Developed a **dynamic pricing engine** with stackable discounts (affiliate, coupon, early bird, B2B, mobile app) and real-time commission tracking for the affiliate program.
-- Built a **multi-tenant notification system** supporting email (**AWS SES** via django-anymail), SMS (**Twilio, BulkSMSBD**), and **Firebase Cloud Messaging** push notifications with event-driven triggers.
-- Integrated **Stripe and SSLCommerz** payment gateways with webhook handling for secure online payments, subscription management, and automated receipt generation.
-- Implemented asynchronous task processing using **Celery and Redis** (with celery-singleton and django-celery-results) for background jobs including notifications, reports, and scheduled operations.
-- Built an **investment module** to manage and track financial investments within the platform.
-- Generated dynamic **QR codes** for course enrollments and event check-ins using the `qrcode` library.
-- Migrated the production database from **MySQL to PostgreSQL** with zero downtime and complete data consistency.
-- Enhanced API performance through **query optimization, Redis caching, and CDN integration** (BunnyCDN / Cloudflare), reducing average response time by **30%**.
-- Implemented a **CI/CD pipeline** for backend services by containerizing with **Docker** and leveraging **AWS ECS** (Fargate / EC2) for scalable deployments, ensuring environment consistency.
+- Designed and optimized **Spring Boot APIs** for high-traffic workloads, improving scalability and reducing latency.
+- Implemented **Redis caching**, reducing API response time by **30%** and significantly lowering database load.
+- Built **asynchronous processing pipelines** for high-volume tasks, improving system responsiveness and reliability.
+- Developed **event-driven notification system** handling **150K+ messages daily** using **AWS SES**.
+- Set up monitoring and alerting using **Prometheus and Grafana** to track latency, errors, and system health.
+- Identified and resolved production bottlenecks using logs, metrics, and performance profiling.
+- Participated in **incident response and root cause analysis (RCA)**, improving system uptime and stability.
+- Improved database performance through **indexing and query optimization** techniques.
+- Contributed to **CI/CD pipelines** enabling automated testing and zero-downtime deployments.
 
-#### 📊 CRM Platform
-- Architected and developed a full-featured **CRM backend** from scratch using **Django, DRF, and PostgreSQL**, with a clean service-repository architecture across modular apps.
-- Built a comprehensive **lead management system** with full CRUD, CSV bulk upload, follow-up scheduling, call logging, notes, and complete lead history tracking.
-- Designed and implemented a **hierarchical RBAC system** with role-based permissions, field-level access control, permission inheritance, and custom decorators/mixins for fine-grained API authorization.
-- Developed a **purchase and commission module** with agent commission tracking, configurable commission slabs, and purchase history management.
-- Built **KPI and finance dashboards** with APIs for conversion analytics, agent performance, source performance, revenue summaries, due aging reports, collection forecasts, and discount usage tracking.
-- Implemented a **unified reporting system** with daily activity, team performance, attendance summary, source revenue, and cross-department reports, all with **CSV/Excel export** capabilities.
-- Developed a **campaign management module** for marketing campaigns and a **notification system** for in-app alerts with real-time updates.
-- Containerized the entire stack with **Docker** using a **blue-green deployment** strategy via **Nginx** load balancer on **AWS EC2** for zero-downtime production releases.
-- Configured **Celery workers and Celery Beat** with Redis as the message broker for background task processing and periodic scheduled jobs.
-- Integrated **AWS S3** for media storage, **AWS SES** for transactional emails, **BulkSMSBD** for SMS notifications, and **Cloudflare Turnstile** for bot protection.
+### 🏢 Software Engineer - Khan Soft Limited (Feb 2021 - Aug 2024)
+📍 Dhaka, Bangladesh
+> Worked on high-scale Cryptocurrency Platform and Network Marketing System (NMS)
 
-#### 🧒 Kidz Venture Platform
-- Developed a **children's educational platform backend** using **Django, DRF, and PostgreSQL**, with modular apps for `courses`, `users`, `notifier`, and shared `generics`/`utils`.
-- Integrated **Stripe and SSLCommerz** payment gateways for course purchases and subscription billing with webhook-based payment verification.
-- Built a **notification service** supporting email (**AWS SES**), SMS (**Twilio, BulkSMSBD**), and **Firebase push notifications** for parent/student engagement.
-- Implemented **Celery with Redis** for async task processing including enrollment confirmations, scheduled reminders, and report generation.
-- Containerized with **Docker** and deployed on **AWS** with CI/CD pipelines via **GitHub Actions** for automated staging and production deployments.
+#### 💰 Cryptocurrency Platform
+- Developed **high-throughput transaction platform** supporting **1M+ users** using **Spring Boot microservices**.
+- Designed **Kafka-based event-driven architecture** for asynchronous transaction processing and wallet updates.
+- Implemented **idempotent transaction handling** and retry mechanisms to ensure consistency in distributed systems.
+- Optimized system performance using **Kafka partitioning** and parallel consumers for high-volume processing.
+- Integrated blockchain interaction via **Python services** while maintaining core system logic in Java.
+- Designed secure **wallet management system** with transaction validation and audit logging.
+- Reduced transaction failure rate by implementing **retry strategies and failure recovery mechanisms**.
+- Implemented **rate limiting and validation layers** to prevent system abuse and ensure API stability.
+- Used **Redis caching** to improve read performance and reduce database load under high traffic.
+- Tuned **PostgreSQL queries and indexing strategies** for large-scale transaction datasets.
+- Monitored system health using logs and metrics to proactively detect and resolve issues.
+- Implemented **structured logging** for debugging and production observability.
+- Integrated **Stripe and PayPal** billing systems with idempotent webhooks ensuring zero duplicate transactions.
 
-#### 🤖 AI Chatbot for LMS Platform
-- Built an **AI-powered chatbot** using **Django and the OpenAI API** with **Server-Sent Events (SSE)** for real-time token-by-token streaming responses.
-- Designed a **data scraping and storage system** for LMS content (courses, workshops, locations, FAQs, success stories) using a flexible model with JSON metadata support.
-- Implemented **context-aware AI responses** by dynamically fetching and injecting scraped platform data (online/offline courses, pricing, workshop details) into OpenAI prompts for accurate, data-driven conversations.
-
-### 🏢 Software Engineer - Khan Soft Limited (Sep 2022 - Aug 2024)
-📍 West Dhanmondi, Dhaka, Bangladesh
-
-- Architected and developed a **blockchain-based cryptocurrency mining platform** using Django and Python, enabling users to mine Bitcoin and other cryptocurrencies through a scalable cloud mining infrastructure.
-- Integrated **multi-chain blockchain support** (Bitcoin, Ethereum, BSC, Polygon) by connecting to full nodes, monitoring on-chain transactions, and synchronizing blockchain data with the backend.
-- Implemented **cryptocurrency wallet management** with HD wallet generation, multi-signature support, and encrypted private key storage using standard cryptographic libraries.
-- Built a **transaction processing engine** optimized for gas efficiency and scalability, featuring batching, automatic retries, and confirmation tracking.
-- Developed real-time **on-chain event listeners** using Celery workers to track smart contract events and mining rewards, automatically updating user balances and mining statistics.
-- Created **RESTful APIs** for mining stats, user portfolios, transaction history, and worker management, secured with **JWT authentication** and rate limiting.
-- Implemented a **transaction monitoring and alerting system** to detect suspicious activities, large withdrawals, and potential security anomalies, sending automated alerts for administrative review.
+#### 🌐 Network Marketing System (NMS)
+- Architected **microservices-based NMS platform** using **Spring Cloud** (Eureka, API Gateway).
+- Designed scalable APIs for **hierarchical data and commission calculation** systems.
+- Optimized hierarchical queries using efficient data modeling and **caching strategies**.
+- Applied caching and **asynchronous processing** to reduce latency and improve performance.
+- Ensured **high availability** through stateless service design and horizontal scalability.
+- Wrote unit and integration tests using **JUnit and Mockito** to ensure system reliability.
 
 ---
 
@@ -82,7 +70,19 @@ Backend developer with 3.5+ years of experience building and optimizing high-per
 
 **Bachelor of Science in Computer Science and Engineering**
 Bangladesh University of Business and Technology (BUBT) — Mirpur-2, Dhaka, Bangladesh
-Graduated: 2022
+Graduated: 2022 | CGPA: 3.39/4.0
+
+---
+
+## 📄 Academic Research
+
+**An Intelligent Application for Preventing Counterfeit Medicines through a Distributed Blockchain** — *Co-Author*
+Published in 3rd International Conference on Sustainable Technologies for Industry 4.0 (STI), Dhaka, 2021
+
+- Co-authored a peer-reviewed paper on a blockchain-based framework to combat counterfeit medicines in the pharmaceutical supply chain.
+- Designed an immutable ledger system to enhance transparency and traceability from manufacturing to end-user, demonstrating a viable solution for securing drug authenticity.
+
+[📎 View Paper](https://ieeexplore.ieee.org/document/9732598)
 
 ---
 
