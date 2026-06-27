@@ -11,7 +11,7 @@ Backend Engineer with 5+ years of experience designing and operating high-scale,
 | Category | Key Skills |
 | :--- | :--- |
 | **Languages** | Java, Python, JavaScript |
-| **Backend** | Spring Boot, Spring Cloud, Spring Security, Spring Data JPA, Hibernate |
+| **Backend** | Spring Boot, Django |
 | **Architecture** | Microservices, Event-Driven Systems, Distributed Systems |
 | **Databases** | PostgreSQL, Redis, MySQL, MongoDB |
 | **Messaging & Streaming** | Apache Kafka, Redis Pub/Sub |
